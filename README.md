@@ -6,15 +6,15 @@
 
 ## Get start
   1. Clone
-  2. Put your application inside `/src` directory
-  3. Add ownership and permissions to the files and directories
-  4. then run `docker-compose up`
-> Note: for now, please refer to the documentation of docker if you dont know where and which to modify.
-
+  2. execute `cp .env.example .env`
+  3. Put your application inside `/src` directory
+  4. Add ownership and permissions to the files and directories
+  5. then run `docker-compose up -d --build`
+  
 ## TODO
 - [ ] Add more services
-    - [ ] Composer
+    - [x] Composer
     - [ ] Git
     - [ ] redis
-- [ ] Make Dockerfile configurable
+- [x] Make Dockerfile configurable
 - [ ] and Environment variables to configure things easily
